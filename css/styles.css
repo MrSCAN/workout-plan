@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.workout-card {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.workout-card.inactive {
+    opacity: 0.5;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.timer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.congratulations-card {
+    max-width: 400px;
+    margin: auto;
+}
+
+.congratulations-card .modal-content {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.congratulations-card .modal-header {
+    background-color: #00c3ff;
+    color: #fff;
+    border-radius: 20px 20px 0 0;
+}
+
+.congratulations-card .modal-body {
+    padding: 30px;
+}
+
+.congratulations-card .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.close {
+    color: #fff;
+    font-size: 30px;
+}
+
+.congratulations-card .modal-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
