@@ -9,6 +9,7 @@ $(document).ready(function() {
 
     // Initialize workouts data
     const defaultWorkouts = {
+        "2024-12-12": {"status": "not started", "url": "https://youtu.be/Z_dgrjRlD_4?si=2J9YKB6J5m12YWeF"},
         "2024-12-13": {"status": "not started", "url": "https://youtu.be/Z_dgrjRlD_4?si=2J9YKB6J5m12YWeF"},
         "2024-12-14": {"status": "not started", "url": "https://youtu.be/Z_dgrjRlD_4?si=2J9YKB6J5m12YWeF"},
         "2024-12-15": {"status": "not started", "url": "https://youtu.be/4rN1wn_l5-M?si=6f2g1Cy9r_VAqZDk"},
