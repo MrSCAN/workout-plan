@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    const startDate = new Date('2024-06-12'); // Adjusted start date
-    const endDate = new Date('2024-07-12');
+    const startDate = new Date('2024-12-12'); // Adjusted start date
+    const endDate = new Date('2025-01-12');
     const today = new Date();
     const todayStr = today.toISOString().split('T')[0];
     const tomorrow = new Date();
